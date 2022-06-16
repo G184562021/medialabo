@@ -15,10 +15,15 @@ body {
 /* Typography */
 
 *{
-  font-family: ;
+  font-family: serif;
+}
+
+neko{
+.wf-nikukyu { font-family: "Nikukyu"; }
 }
 
 h1{
+  
   font-size: 4em;
   border: dashed rgb(170, 178, 255);
     background-color: rgb(172, 170, 255);
