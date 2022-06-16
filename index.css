@@ -1,0 +1,95 @@
+/* General styles */
+
+
+html {
+  font-family: 'Helvetica neue', Arial, 'sans serif';
+  font-size: 10px;
+}
+
+body {
+  width: 80em;
+  margin: 0 auto;
+  color:rgb(0, 0, 0);
+}
+
+/* Typography */
+
+*{
+  font-family: ;
+}
+
+h1{
+  font-size: 4em;
+  border: dashed rgb(170, 178, 255);
+    background-color: rgb(172, 170, 255);
+}
+
+h2 {
+  font-size: 3.2em;
+  border: dashed rgb(215, 223, 255);
+    background-color: rgb(204, 212, 250);
+}
+
+h3 {
+  font-size: 2.5em;
+  color:rgb(0, 1, 68);
+  text-decoration: underline overline #cbccff;
+}
+
+p{
+  font-size: 1.5em;
+}
+
+
+
+a:link{
+  color:rgb(0, 22, 122)
+}
+a:link{
+  color:rgb(115, 124, 255)
+}
+a:hover{
+  text-decoration:none;
+}
+
+p strong{
+  color :#0d0047;
+}
+
+pli {
+  font-size: 1.7em;
+}
+
+/*+++ more specific section styles +++*/
+
+/* header and footer */
+
+header, footer {
+  background-color: rgb(0, 128, 128);
+  height: 10em;
+  padding: 2em;
+}
+
+h1, footer p {
+  margin: 0px;
+}
+
+h1 {
+  text-align: center;
+  padding: 0.5em 0;
+}
+
+/* main content */
+
+main {
+  padding: 2em;
+}
+
+main p, main li {
+  line-height: 2;
+}
+
+img {
+  float: right;
+  margin: 1.2em 2em;
+}
