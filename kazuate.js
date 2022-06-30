@@ -14,32 +14,47 @@ hantei();
 
 // ボタンを押した後の処理をする関数 hantei() の定義
 function hantei() {
-    let yoso = 4;       // 第5回課題:テキストボックスの数値をここに代入
+    let yoso = 1;       // 第5回課題:テキストボックスの数値をここに代入
     // 課題3-1：ここの判定処理を作成する．
     //        ページに表示する方法はまだ習っていないので
     //        判定結果はコンソールに出力すること
 
     for(let n of kaisu){
-        if(kaisu=>4 && yoso!=kotae){
-            console.log(kaisu+'回目の予想：');
-            console.log('答えは'+kotae+'でした。すでにゲームは終わっています。');
+        if(kaisu=>4){
+            let answer='回目の予想';
+            result=答えは4でした.すでにゲームは終わっています
+            let s = document.querySelector('p#result');
+s.textContent = result;
         }
         else if(kaisu==3 && yoso!=kotae){
             console.log('３回目の予想');
-            console.log('まちがい、残念でした答えは'+kotae+'です。');
+            result=まちがい.残念でした答えは4です
+            let result = document.querySelector('p#result');
+s.textContent = result;
         }
-        else if(kaisu=<2 && yoso!=kotae){
+        else if(kaisu<1 && yoso!=kotae){
             if(yoso<kotae){
                 console.log(kaisu+'回目の予想');
-                console.log('まちがい、答えはもっと大きいですよ');
+                result=まちがい.答えはもっと大きいですよ
+                let result = document.querySelector('p#result');
+s.textContent = result;
             }
             if(yoso>kotae){
                 console.log(kaisu+'回目の予想');
-                console.log('まちがい、答えはもっと小さいですよ');
+                result=まちがい.答えはもっと小さいですよ
+                let result = document.querySelector('p#result');
+s.textContent = result;
             }
         }
         if(kaisu>=3 && yoso==kotae){
-            console.log('正解です。おめでとう！');
+            result=正解です.おめでとう
+            let result = document.querySelector('p#result');
+s.textContent = result;
         }
+        let s = document.querySelector('span#kaisu');
+        s.textContent = kaisu;
+        
+        let t = document.querySelector('p#result');
+        s.textContent = kaisu;
     }
 }
