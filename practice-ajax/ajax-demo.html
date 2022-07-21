@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<!--<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+	<script src="ajax-demo.js" defer></script>
+  </head>
+
+  
+  <h1>NHKのチャンネルとジャンルを記入してください</h1>
+  <h4>チャンネル名を記入</h4>
+  <p>0000 ... ニュース・報道
+    0100 ... スポーツ
+    0205 ... 情報・ワイドショー
+    0300 ... ドラマ
+    0409 ... 音楽
+    0502 ... バラエティ
+    0600 ... 映画
+    0700 ... アニメ
+    0800 ... ドキュメンタリー・教養
+    0903 ... 劇場・公演
+    1000 ... 趣味・教育
+    1100 ... 福祉</p>
+  <input type="text" name="service" id="service" size="10">
+  <h4>ジャンル名を記入</h4>
+  <input type="text" name="genre" id="genre" size="10">
+  <p>「表示」ボタンを押すと，サーバに通信します．結果はコンソールに出力します．</p>
+  <button id="print">表示</button>
+  </body>
+</html>

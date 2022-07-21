@@ -1,19 +1,47 @@
 <!DOCTYPE html>
-<html>
+<h>
   <head>
-    <meta charset="utf-8">
-    <title>Projects</title>
-    <script src="tv-program.js" defer></script>
+    <link rel="stylesheet" href="project.css">
+    <link href="https://fonts.googleapis.com/earlyaccess/nikukyu.css" rel="stylesheet">
   </head>
 
-  <body>
+  
     <!-- put navigation menu just below here -->
-    <h1>NHKの番組表<h1>
-      <p>番組名：ニュース<p>
+
+  <h1>NHK番組検索</h1>
+  <p>チャンネル番号を記入してください</p>
+  <input type="text" name="genre" id="genre" size="10">
+  <ul>
+    <li>0000 ... ニュース・報道</li>
+    <li>0100 ... スポーツ</li>
+    <li>0205 ... 情報・ワイドショー</li>
+    <li>0300 ... ドラマ</li>
+    <li>0409 ... 音楽</li>
+    <li>0502 ... バラエティ</li>
+    <li>0600 ... 映画</li>
+    <li>0700 ... アニメ</li>
+    <li>0800 ... ドキュメンタリー・教養</li>
+    <li>0903 ... 劇場・公演</li>
+    <li>1000 ... 趣味・教育</li>
+    <li>1100 ... 福祉</li>
+    </ul>
+  <p>選択してください</p>
+  <input type="radio" name="servise" id="NHK総合テレビ" size="g1">
+  <label id="print">NHK総合テレビ</label>
+  <input type="radio" name="servise" id="Eテレ1" size="e1">
+  <label id="print">Eテレ１</label>
+  <button id="print">検索</button>
+    <!--<input type="text" name="genre" id="genre" size="10">-->
+    <!--<button id="print">表示</button>-->
+
+    <p ><span id="genre"></span></p>
+
+    <!--<h1>NHKの番組表<h1>
+     <p>番組名：ニュース<p>
       <p>開始時刻 12:00 終了時刻 13:00<p>
 
     <h1>My projects</h1>
 
-    <p>Welcome to my project page, showing what exciting things I am currently doing.</p>
+    <p>Welcome to my project page, showing what exciting things I am currently doing.</p>-->
   </body>
 </html>
