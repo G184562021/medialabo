@@ -202,8 +202,8 @@ let data = {
 /////////// 課題3-2 ここからプログラムを書こう
 
 
-let b = document.querySelector('#sendRequest');
-b.addEventListener('click', sendRequest);
+let x = document.querySelector('#sendRequest');
+x.addEventListener('click', sendRequest);
 
 let z =0;
 // 通信を開始する処理
