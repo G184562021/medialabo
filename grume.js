@@ -214,8 +214,8 @@ function sendRequest() {
 }
 z=0;
 	// URL を設定
-  let e = document.querySelector('input[name="number"]');
-  let key =e.value;
+  let y = document.querySelector('input[name="number"]');
+  let key =y.value;
 	let url = 'https://www.nishita-lab.org/web-contents/jsons/hotpepper/'+key+'.json';
 
 	// 通信開始
