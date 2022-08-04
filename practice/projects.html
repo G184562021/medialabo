@@ -7,12 +7,57 @@
 
   <body>
     <!-- put navigation menu just below here -->
-    <h1>NHKの番組表<h1>
-      <p>番組名：ニュース<p>
-      <p>開始時刻 12:00 終了時刻 13:00<p>
 
-    <h1>My projects</h1>
+    <h1>グルメ情報</h1>
 
-    <p>Welcome to my project page, showing what exciting things I am currently doing.</p>
+    <form method="POST" action="sample.cgi">
+      <p>検索<input type="text"></p>
+      <p><input type="submit" value="検索"></p>
+      <input type="reset" value="取消する">
+    </form>
+
+    <table border="1">
+      <tr>
+        <th>項目名</th>
+        <th>項目の説明</th>
+      </tr>
+      <tr>
+        <td>access</td>
+        <td>アクセス情報</td>
+      </tr>
+      <tr>
+        <td>address</td>
+        <td>住所</td>
+      </tr>
+      <tr>
+        <td>budget.name</td>
+        <td>予算</td>
+      </tr>
+      <tr>
+        <td>catch</td>
+        <td>キャッチコピー</td>
+      </tr>
+      <tr>
+        <td>genre.name</td>
+        <td>ジャンル</td>
+      </tr>
+      <tr>
+        <td>name</td>
+        <td>店舗名</td>
+      </tr>
+      <tr>
+        <td>open</td>
+        <td>営業日時</td>
+      </tr>
+      <tr>
+        <td>station_name</td>
+        <td>最寄駅</td>
+      </tr>
+      <tr>
+        <td>subgenre.name 	</td>
+        <td>サブジャンルの名前</td>
+      </tr>
+    </table>
+
   </body>
 </html>
