@@ -202,8 +202,8 @@ let data = {
 /////////// 課題3-2 ここからプログラムを書こう
 
 
-let x = document.querySelector('#sendRequest');
-x.addEventListener('click', sendRequest);
+let b = document.querySelector('#sendRequest');
+b.addEventListener('click', sendRequest);
 
 let z =0;
 // 通信を開始する処理
@@ -214,8 +214,8 @@ function sendRequest() {
 }
 z=0;
 	// URL を設定
-  let y = document.querySelector('input[name="number"]');
-  let key =y.value;
+  let e = document.querySelector('input[name="number"]');
+  let key =e.value;
 	let url = 'https://www.nishita-lab.org/web-contents/jsons/hotpepper/'+key+'.json';
 
 	// 通信開始
