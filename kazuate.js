@@ -36,12 +36,12 @@ let yoso ;
     if(kaisu>4){
            li.textContent="答えは"+kotae+"でした。すでにゲームは終わっています。";
     }else{
-        if(4==kaisu && !(kotae===yoso)){
+        if(4=<kaisu && !(kotae == yoso)){
             li.textContent="まちがい。残念でした答えは"+kotae+"です";
-        }else if(kaisu<4 && kotae === yoso){
+        }else if(kaisu<4 && kotae == yoso){
             li.textContent="正解です、おめでとう";
             kaisu =kaisu+4;
-        }else if(kaisu<4 && !(kotae === yoso)){
+        }else if(kaisu<4 && !(kotae == yoso)){
             if(kotae>yoso){
                 li.textContent="まちがい。答えはもっと大きいですよ";
             }else if(kaisu<yoso){
